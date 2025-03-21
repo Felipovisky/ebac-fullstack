@@ -1,0 +1,25 @@
+header {
+    background-color: @primary-color;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    .container {
+        .flex-center();
+        padding: @padding-base 0;
+    }
+
+    .menu {
+        display: flex;
+
+        li {
+            font-weight: bold;
+            margin-left: @margin-base;
+
+            a {
+                color: @text-color;
+                text-decoration: none;
+            }
+        }
+    }
+}
