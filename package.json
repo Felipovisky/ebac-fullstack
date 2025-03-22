@@ -1,15 +1,12 @@
 {
-  "devDependencies": {
-    "grunt": "^1.6.1",
-    "grunt-contrib-cssmin": "^5.0.0",
-    "grunt-contrib-less": "^3.0.0",
-    "grunt-contrib-uglify": "^5.2.2",
-    "grunt-sass": "^4.0.0",
-    "sass": "^1.86.0"
-  },
   "name": "e-grunt",
   "version": "1.0.0",
+  "description": "",
   "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "grunt": "grunt"
+  },
   "dependencies": {
     "abbrev": "^1.1.1",
     "ansi-styles": "^4.3.0",
@@ -131,11 +128,15 @@
     "which": "^2.0.2",
     "wrappy": "^1.0.2"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-cssmin": "^5.0.0",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-sass": "^4.0.0",
+    "sass": "^1.86.0"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }
