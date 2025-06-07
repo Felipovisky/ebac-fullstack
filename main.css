@@ -1,0 +1,122 @@
+:root {
+    --primary-color: #01a3a4;
+    --background-color: #f5f7fa;
+    --text-color: #333;
+    --white: #fff;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+    list-style: none;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.container {
+    background: var(--white);
+    max-width: 420px;
+    width: 100%;
+    padding: 2.5rem 2rem 3rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px var(--shadow-color);
+    text-align: center;
+}
+
+.profile-avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: 0 auto 1.8rem;
+    border: 5px solid var(--primary-color);
+    object-fit: cover;
+    box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+.profile-name {
+    font-family: var(--font-heading);
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    color: var(--primary-color);
+}
+
+.profile-username {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 1.8rem;
+    letter-spacing: 1px;
+}
+
+.container {
+    background: var(--white);
+    max-width: 500px;
+    width: 100%;
+    padding: 3rem 2.5rem 3.5rem 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px var(--shadow-color);
+    text-align: center;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.numbers-item {
+    flex: 1;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.numbers-item h4 {
+    font-weight: 600;
+    font-size: 0.85rem;
+    margin-bottom: 0.3rem;
+    color: #999;
+    text-transform: uppercase;
+}
+
+.numbers-item span {
+    font-size: 2.5rem;
+}
+
+.profile-link {
+    display: inline-block;
+    padding: 0.65rem 2.2rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px var(--primary-color);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-link:hover,
+.profile-link:focus {
+    background-color: #028181;
+    box-shadow: 0 6px 14px #028181cc;
+    outline: none;
+}
